@@ -1,0 +1,163 @@
+transaction_date,posted_date,merchant_name,amount,description,transaction_type,category_hint
+2024-01-05,2024-01-05,Tesco Grocery,45.32,Groceries,debit,Groceries
+2024-01-05,2024-01-05,Costa Coffee,5.20,Coffee,debit,Dining
+2024-01-06,2024-01-06,TfL Contactless,2.80,Bus fare,debit,Transport
+2024-01-06,2024-01-06,Waitrose Supermarket,62.15,Weekly shopping,debit,Groceries
+2024-01-07,2024-01-07,Netflix Subscription,12.99,Streaming service,debit,Subscriptions
+2024-01-08,2024-01-08,Uber Trip,18.50,Ride from airport,debit,Transport
+2024-01-08,2024-01-08,Sainsbury's,38.74,Groceries,debit,Groceries
+2024-01-09,2024-01-09,Gym Membership,29.99,Monthly fee,debit,Healthcare
+2024-01-09,2024-01-09,Starbucks,4.50,Coffee,debit,Dining
+2024-01-10,2024-01-10,Boots Pharmacy,23.45,Personal care,debit,Personal Care
+2024-01-11,2024-01-11,Tesco Grocery,28.90,Evening shopping,debit,Groceries
+2024-01-11,2024-01-11,Cineworld Cinemas,12.00,Movie ticket,debit,Entertainment
+2024-01-12,2024-01-12,British Gas,145.00,Electricity bill,debit,Utilities
+2024-01-12,2024-01-12,Virgin Media,49.99,Internet/TV,debit,Utilities
+2024-01-13,2024-01-13,Wagamama Restaurant,42.30,Dinner,debit,Dining
+2024-01-14,2024-01-14,Asda,35.60,Groceries,debit,Groceries
+2024-01-14,2024-01-14,Spotify Premium,11.99,Music streaming,debit,Subscriptions
+2024-01-15,2024-01-15,Costa Coffee,5.20,Coffee,debit,Dining
+2024-01-16,2024-01-16,TfL Oyster,15.00,Weekly pass,debit,Transport
+2024-01-16,2024-01-16,John Lewis,89.50,Winter coat,debit,Shopping
+2024-01-17,2024-01-17,Tesco Grocery,51.23,Groceries,debit,Groceries
+2024-01-17,2024-01-17,Caffè Nero,3.80,Coffee,debit,Dining
+2024-01-18,2024-01-18,Amazon Prime,14.99,Annual membership (monthly charge),debit,Subscriptions
+2024-01-18,2024-01-18,Zizzi Restaurant,56.80,Dinner with friends,debit,Dining
+2024-01-19,2024-01-19,Marks & Spencer,45.00,Food shopping,debit,Groceries
+2024-01-19,2024-01-19,Starbucks,4.50,Coffee,debit,Dining
+2024-01-20,2024-01-20,National Rail,65.00,Monthly travel card,debit,Transport
+2024-01-21,2024-01-21,Ocado,78.45,Online groceries,debit,Groceries
+2024-01-21,2024-01-21,Pret A Manger,8.50,Lunch,debit,Dining
+2024-01-22,2024-01-22,ASOS Online,124.99,Clothing,debit,Shopping
+2024-01-22,2024-01-22,Tesco Grocery,32.15,Groceries,debit,Groceries
+2024-01-23,2024-01-23,Apple Music,10.99,Music streaming,debit,Subscriptions
+2024-01-23,2024-01-23,Nando's Restaurant,28.50,Lunch,debit,Dining
+2024-01-24,2024-01-24,Uber Eats,34.20,Food delivery,debit,Dining
+2024-01-24,2024-01-24,Waitrose Supermarket,41.30,Groceries,debit,Groceries
+2024-01-25,2024-01-25,Microsoft 365,7.00,Office subscription (monthly),debit,Subscriptions
+2024-01-25,2024-01-25,Greggs,5.10,Sandwich,debit,Dining
+2024-01-26,2024-01-26,Adidas Store,85.00,Running shoes,debit,Shopping
+2024-01-26,2024-01-26,Sainsbury's,55.40,Groceries,debit,Groceries
+2024-01-27,2024-01-27,BritBox,5.99,TV streaming,debit,Subscriptions
+2024-01-27,2024-01-27,Costa Coffee,5.20,Coffee,debit,Dining
+2024-01-28,2024-01-28,Tesco Grocery,48.65,Groceries,debit,Groceries
+2024-01-28,2024-01-28,Lyft,22.40,Ride to meeting,debit,Transport
+2024-01-29,2024-01-29,Boots,18.75,Toiletries,debit,Personal Care
+2024-01-29,2024-01-29,Pizza Express,52.00,Dinner,debit,Dining
+2024-01-30,2024-01-30,Ocado,65.20,Online groceries,debit,Groceries
+2024-02-01,2024-02-01,Netflix,12.99,Streaming,debit,Subscriptions
+2024-02-01,2024-02-01,Costa Coffee,5.20,Coffee,debit,Dining
+2024-02-02,2024-02-02,TfL Contactless,2.80,Bus,debit,Transport
+2024-02-02,2024-02-02,Tesco,42.10,Groceries,debit,Groceries
+2024-02-03,2024-02-03,Starbucks,4.50,Coffee,debit,Dining
+2024-02-03,2024-02-03,Boots Pharmacy,35.50,Skincare products,debit,Personal Care
+2024-02-04,2024-02-04,Waitrose,52.80,Weekly shop,debit,Groceries
+2024-02-04,2024-02-04,Uber,16.30,Ride home,debit,Transport
+2024-02-05,2024-02-05,Spotify,11.99,Music,debit,Subscriptions
+2024-02-05,2024-02-05,Leon Fast Food,12.40,Lunch,debit,Dining
+2024-02-06,2024-02-06,British Gas,145.00,Gas bill,debit,Utilities
+2024-02-06,2024-02-06,Virgin Media,49.99,Broadband,debit,Utilities
+2024-02-07,2024-02-07,Nando's,31.20,Dinner,debit,Dining
+2024-02-07,2024-02-07,Sainsbury's,38.45,Groceries,debit,Groceries
+2024-02-08,2024-02-08,Apple Music,10.99,Music,debit,Subscriptions
+2024-02-08,2024-02-08,Costa,5.20,Coffee,debit,Dining
+2024-02-09,2024-02-09,Asda,41.75,Shopping,debit,Groceries
+2024-02-09,2024-02-09,Selfridges,156.00,Designer handbag,debit,Shopping
+2024-02-10,2024-02-10,National Rail,65.00,Travel card,debit,Transport
+2024-02-10,2024-02-10,Tesco,35.20,Groceries,debit,Groceries
+2024-02-11,2024-02-11,Caffè Nero,3.80,Coffee,debit,Dining
+2024-02-11,2024-02-11,Microsoft 365,7.00,Software,debit,Subscriptions
+2024-02-12,2024-02-12,Zizzi,48.50,Dinner,debit,Dining
+2024-02-12,2024-02-12,Marks & Spencer,55.30,Groceries,debit,Groceries
+2024-02-13,2024-02-13,BritBox,5.99,TV,debit,Subscriptions
+2024-02-13,2024-02-13,Uber Eats,28.90,Delivery,debit,Dining
+2024-02-14,2024-02-14,Hotel Chocolat,45.00,Valentine's gift,debit,Gifts & Donations
+2024-02-14,2024-02-14,Ocado,72.15,Online shop,debit,Groceries
+2024-02-15,2024-02-15,Lyft,19.50,Ride,debit,Transport
+2024-02-15,2024-02-15,Pret,8.80,Lunch,debit,Dining
+2024-02-16,2024-02-16,Boots,22.40,Personal care,debit,Personal Care
+2024-02-16,2024-02-16,Tesco,44.55,Groceries,debit,Groceries
+2024-02-17,2024-02-17,Netflix,12.99,Streaming,debit,Subscriptions
+2024-02-17,2024-02-17,Costa,5.20,Coffee,debit,Dining
+2024-02-18,2024-02-18,Wagamama,39.60,Lunch,debit,Dining
+2024-02-18,2024-02-18,Sainsbury's,51.20,Groceries,debit,Groceries
+2024-02-19,2024-02-19,TfL Oyster,15.00,Weekly pass,debit,Transport
+2024-02-19,2024-02-19,ASOS,89.99,Clothing,debit,Shopping
+2024-02-20,2024-02-20,John Lewis,67.50,Homewares,debit,Shopping
+2024-02-20,2024-02-20,Waitrose,58.90,Shopping,debit,Groceries
+2024-02-21,2024-02-21,Spotify,11.99,Music,debit,Subscriptions
+2024-02-21,2024-02-21,Starbucks,4.50,Coffee,debit,Dining
+2024-02-22,2024-02-22,Greggs,5.80,Breakfast,debit,Dining
+2024-02-22,2024-02-22,Ocado,69.30,Online groceries,debit,Groceries
+2024-02-23,2024-02-23,Apple Music,10.99,Music,debit,Subscriptions
+2024-02-23,2024-02-23,Uber,20.10,Ride,debit,Transport
+2024-02-24,2024-02-24,Pizza Express,54.80,Dinner,debit,Dining
+2024-02-24,2024-02-24,Tesco,39.45,Groceries,debit,Groceries
+2024-02-25,2024-02-25,Boots Pharmacy,29.15,Medicine,debit,Personal Care
+2024-02-25,2024-02-25,National Rail,65.00,Travel,debit,Transport
+2024-02-26,2024-02-26,Microsoft 365,7.00,Office,debit,Subscriptions
+2024-02-26,2024-02-26,Costa,5.20,Coffee,debit,Dining
+2024-02-27,2024-02-27,Asda,36.70,Groceries,debit,Groceries
+2024-02-27,2024-02-27,BritBox,5.99,TV,debit,Subscriptions
+2024-02-28,2024-02-28,Nando's,34.10,Dinner,debit,Dining
+2024-02-28,2024-02-28,Sainsbury's,47.20,Shopping,debit,Groceries
+2024-03-01,2024-03-01,Netflix,12.99,Streaming,debit,Subscriptions
+2024-03-01,2024-03-01,Starbucks,4.50,Coffee,debit,Dining
+2024-03-02,2024-03-02,TfL,2.80,Bus,debit,Transport
+2024-03-02,2024-03-02,Tesco,48.35,Groceries,debit,Groceries
+2024-03-03,2024-03-03,Costa,5.20,Coffee,debit,Dining
+2024-03-03,2024-03-03,Boots,26.40,Skincare,debit,Personal Care
+2024-03-04,2024-03-04,Waitrose,55.60,Shop,debit,Groceries
+2024-03-04,2024-03-04,Lyft,23.80,Ride,debit,Transport
+2024-03-05,2024-03-05,Spotify,11.99,Music,debit,Subscriptions
+2024-03-05,2024-03-05,Pret,10.20,Lunch,debit,Dining
+2024-03-06,2024-03-06,British Gas,145.00,Bill,debit,Utilities
+2024-03-06,2024-03-06,Virgin Media,49.99,Broadband,debit,Utilities
+2024-03-07,2024-03-07,Wagamama,45.30,Dinner,debit,Dining
+2024-03-07,2024-03-07,Sainsbury's,42.15,Groceries,debit,Groceries
+2024-03-08,2024-03-08,Apple Music,10.99,Music,debit,Subscriptions
+2024-03-08,2024-03-08,Costa,5.20,Coffee,debit,Dining
+2024-03-09,2024-03-09,Marks & Spencer,51.80,Groceries,debit,Groceries
+2024-03-09,2024-03-09,Next Home,124.50,Furniture,debit,Shopping
+2024-03-10,2024-03-10,National Rail,65.00,Travel,debit,Transport
+2024-03-10,2024-03-10,Ocado,73.25,Online,debit,Groceries
+2024-03-11,2024-03-11,Caffè Nero,3.80,Coffee,debit,Dining
+2024-03-11,2024-03-11,Microsoft 365,7.00,Software,debit,Subscriptions
+2024-03-12,2024-03-12,Zizzi,52.40,Dinner,debit,Dining
+2024-03-12,2024-03-12,Tesco,38.90,Groceries,debit,Groceries
+2024-03-13,2024-03-13,BritBox,5.99,TV,debit,Subscriptions
+2024-03-13,2024-03-13,Uber Eats,31.50,Delivery,debit,Dining
+2024-03-14,2024-03-14,Boots,24.70,Personal care,debit,Personal Care
+2024-03-14,2024-03-14,Asda,43.20,Groceries,debit,Groceries
+2024-03-15,2024-03-15,Uber,18.90,Ride,debit,Transport
+2024-03-15,2024-03-15,Leon,13.50,Lunch,debit,Dining
+2024-03-16,2024-03-16,Tesco,45.60,Groceries,debit,Groceries
+2024-03-16,2024-03-16,Netflix,12.99,Streaming,debit,Subscriptions
+2024-03-17,2024-03-17,Costa,5.20,Coffee,debit,Dining
+2024-03-17,2024-03-17,Waitrose,61.30,Shop,debit,Groceries
+2024-03-18,2024-03-18,ASOS,94.99,Clothing,debit,Shopping
+2024-03-18,2024-03-18,Starbucks,4.50,Coffee,debit,Dining
+2024-03-19,2024-03-19,TfL Oyster,15.00,Pass,debit,Transport
+2024-03-19,2024-03-19,Sainsbury's,49.80,Groceries,debit,Groceries
+2024-03-20,2024-03-20,Spotify,11.99,Music,debit,Subscriptions
+2024-03-20,2024-03-20,Nando's,36.40,Dinner,debit,Dining
+2024-03-21,2024-03-21,Pizza Express,58.20,Dinner,debit,Dining
+2024-03-21,2024-03-21,Ocado,68.75,Online,debit,Groceries
+2024-03-22,2024-03-22,Apple Music,10.99,Music,debit,Subscriptions
+2024-03-22,2024-03-22,Lyft,21.30,Ride,debit,Transport
+2024-03-23,2024-03-23,John Lewis,78.90,Clothing,debit,Shopping
+2024-03-23,2024-03-23,Tesco,40.50,Groceries,debit,Groceries
+2024-03-24,2024-03-24,Boots Pharmacy,33.20,Medicine,debit,Personal Care
+2024-03-24,2024-03-24,National Rail,65.00,Travel,debit,Transport
+2024-03-25,2024-03-25,Microsoft 365,7.00,Office,debit,Subscriptions
+2024-03-25,2024-03-25,Costa,5.20,Coffee,debit,Dining
+2024-03-26,2024-03-26,Marks & Spencer,56.40,Food,debit,Groceries
+2024-03-26,2024-03-26,BritBox,5.99,TV,debit,Subscriptions
+2024-03-27,2024-03-27,Wagamama,47.80,Lunch,debit,Dining
+2024-03-27,2024-03-27,Asda,44.15,Groceries,debit,Groceries
+2024-03-28,2024-03-28,Netflix,12.99,Streaming,debit,Subscriptions
+2024-03-28,2024-03-28,Greggs,6.20,Breakfast,debit,Dining
+2024-03-29,2024-03-29,Uber,19.40,Ride,debit,Transport
+2024-03-29,2024-03-29,Sainsbury's,53.70,Groceries,debit,Groceries
+2024-03-30,2024-03-30,Costa,5.20,Coffee,debit,Dining
+2024-03-30,2024-03-30,Pret,9.10,Lunch,debit,Dining

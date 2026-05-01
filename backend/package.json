@@ -10,9 +10,9 @@
     "test": "jest --coverage",
     "test:watch": "jest --watch",
     "lint": "eslint src --ext .ts",
-    "db:migrate": "node scripts/migrate.js",
-    "db:seed": "node scripts/seed.js",
-    "db:reset": "node scripts/reset.js",
+    "db:init": "ts-node scripts/init-db.ts",
+    "db:import-csv": "ts-node scripts/import-csv.ts",
+    "db:reset": "ts-node scripts/reset.ts",
     "worker:process": "ts-node src/workers/processingWorker.ts",
     "worker:analytics": "ts-node src/workers/analyticsWorker.ts",
     "worker:insights": "ts-node src/workers/insightWorker.ts"
@@ -41,7 +41,8 @@
     "winston": "^3.11.0",
     "lodash": "^4.17.21",
     "natural": "^6.10.0",
-    "levenshtein-distance": "^1.0.1"
+    "levenshtein-distance": "^1.0.1",
+    "csv-parse": "^5.5.0"
   },
   "devDependencies": {
     "@types/express": "^4.17.21",
