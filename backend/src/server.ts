@@ -11,6 +11,7 @@ import morgan from 'morgan';
 import dotenv from 'dotenv';
 import db, { healthCheck, closeConnection } from './db/connection';
 import transactionRoutes from './api/routes/transactions';
+import analyticsRoutes from './api/routes/analytics';
 
 // Load environment variables
 dotenv.config();
@@ -84,6 +85,7 @@ app.get('/health', async (req: Request, res: Response) => {
 // ============================================================================
 
 app.use('/api/transactions', transactionRoutes);
+app.use('/api/analytics', analyticsRoutes);
 
 // ============================================================================
 // 404 HANDLER
