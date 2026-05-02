@@ -189,7 +189,7 @@ export async function getTransactionCount(
   }
 
   const result = await query.count('id as count').first();
-  return result?.count || 0;
+  return Number(result?.count) || 0;
 }
 
 // ============================================================================

@@ -48,7 +48,7 @@ export async function detectSubscriptions(userId: number): Promise<{
 
     for (const merchant of merchants) {
       try {
-        const pattern = await analyzeRecurringPattern(userId, merchant.merchant_id);
+        const pattern = await analyzeRecurringPattern(userId, Number(merchant.merchant_id));
 
         if (pattern && isLikelySubscription(pattern)) {
           const subscriptionId = await createSubscription(userId, pattern);
@@ -139,7 +139,7 @@ async function analyzeRecurringPattern(
     first_date: transactions[0].transaction_date,
     last_date: transactions[transactions.length - 1].transaction_date,
     next_occurrence_date: nextOccurrenceDate.toISOString().split('T')[0],
-    category_id: category?.category_id,
+    category_id: category ? Number(category.category_id) : undefined,
   };
 }
 
@@ -289,10 +289,10 @@ async function createSubscription(userId: number, pattern: RecurringPattern): Pr
  * Get subscriptions for user
  */
 export async function getSubscriptions(userId: number, activeOnly: boolean = true) {
-  let query = db('subscriptions').where('user_id', userId);
+  let query = db('subscriptions').where('subscriptions.user_id', userId);
 
   if (activeOnly) {
-    query = query.where('is_active', true);
+    query = query.where('subscriptions.is_active', true);
   }
 
   return query

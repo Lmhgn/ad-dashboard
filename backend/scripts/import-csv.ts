@@ -74,7 +74,7 @@ async function importCSV() {
 
     // Verify import
     const count = await db('transactions').where('user_id', USER_ID).count('* as count').first();
-    console.log(`📈 Total transactions in database: ${count.count}\n`);
+    console.log(`📈 Total transactions in database: ${count?.count || 0}\n`);
 
     await db.destroy();
   } catch (error) {

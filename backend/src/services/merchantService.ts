@@ -4,7 +4,7 @@
  */
 
 import db from '../db/connection';
-import Levenshtein from 'levenshtein-distance';
+import levenshtein from 'js-levenshtein';
 
 // ============================================================================
 // MERCHANT NORMALIZATION
@@ -123,7 +123,7 @@ async function findSimilarMerchant(
     }
 
     // Calculate Levenshtein distance
-    const distance = Levenshtein(normalizedName, merchant.normalized_name);
+    const distance = levenshtein(normalizedName, merchant.normalized_name);
 
     if (distance < bestDistance) {
       bestDistance = distance;
@@ -289,7 +289,7 @@ export async function findPotentialDuplicates(userId: number, threshold: number 
 
   for (let i = 0; i < merchants.length; i++) {
     for (let j = i + 1; j < merchants.length; j++) {
-      const distance = Levenshtein(merchants[i].normalized_name, merchants[j].normalized_name);
+      const distance = levenshtein(merchants[i].normalized_name, merchants[j].normalized_name);
 
       if (distance <= threshold) {
         duplicates.push({

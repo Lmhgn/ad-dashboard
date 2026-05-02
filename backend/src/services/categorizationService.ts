@@ -368,5 +368,5 @@ export async function getUncategorizedCount(userId: number): Promise<number> {
     .count('* as count')
     .first();
 
-  return result?.count || 0;
+  return Number(result?.count) || 0;
 }
