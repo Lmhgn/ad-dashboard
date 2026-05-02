@@ -13,7 +13,8 @@
     "db:init": "ts-node scripts/init-db.ts",
     "db:import-csv": "ts-node scripts/import-csv.ts",
     "db:reset": "ts-node scripts/reset.ts",
-    "worker:process": "ts-node src/workers/processingWorker.ts",
+    "process-transactions": "ts-node scripts/process-transactions.ts",
+    "worker:process": "ts-node src/workers/processingWorker.ts -- --schedule",
     "worker:analytics": "ts-node src/workers/analyticsWorker.ts",
     "worker:insights": "ts-node src/workers/insightWorker.ts"
   },
